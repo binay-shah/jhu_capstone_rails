@@ -17,6 +17,7 @@ end
 
 gem 'pg'
 gem 'mongoid', '~>5.1', '>=5.1.5'
+gem 'puma', '~>3.6', '>=3.6.0'#, :platforms=>:ruby
 
 
 
