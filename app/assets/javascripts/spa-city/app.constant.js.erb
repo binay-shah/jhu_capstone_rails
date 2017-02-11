@@ -1,0 +1,14 @@
+(function() {
+  "use strict";
+
+  angular
+    .module("spa-city")
+    .constant("spa-city.APP_CONFIG", {
+      server_url: "<%= ENV['RAILS_API_URL'] %>",
+
+      main_page_html: "<%= asset_path('spa-city/pages/main.html') %>",
+
+      cities_html: "<%= asset_path('spa-city/cities/cities.html') %>"
+    });
+
+})();

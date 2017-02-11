@@ -1,4 +1,5 @@
 /*
  * City Stylesheet Manifest file
  *= require bootstrap
+ *= require spa-city/layout
  */
